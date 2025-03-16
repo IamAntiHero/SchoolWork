@@ -1,4 +1,1 @@
-# SchoolWork
-A collection of academic projects, assignments, and coursework from my studies in Programming. Showcasing programming assignments, research papers, and practical work.
-# License 📜
-This repository is for educational purposes.
+Last updated: 2025-03-16 19:12:23
