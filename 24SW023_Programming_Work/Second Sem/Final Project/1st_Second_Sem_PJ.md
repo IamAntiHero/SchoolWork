@@ -51,7 +51,7 @@ This project was created to demonstrate my understanding of:
 
 ## 📸 Screenshots
 
-[Screenshots would be added here]
+You can see screenshots in "screenshots" folder 
 
 ---
 
