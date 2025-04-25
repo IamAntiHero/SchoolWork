@@ -1,4 +1,3 @@
-# SchoolWork
 # 📚 SCHOOLWORK Repository
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-April%2025%2C%202025-blue)
