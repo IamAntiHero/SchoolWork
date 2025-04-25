@@ -2,7 +2,7 @@ I am making this file to summarize the extra things i learned for anyone reading
 
 Volatile Keyword
 this keyword is weird but important, when u have multiple threads, they might not see updated values without it. basically tells Java "always get fresh value from memory, don't use cached copy"
-finally fixed that annoying bug where my thread wouldn't stop!
+finally fixed that annoying bug where my thread wouldnt stop
 
 also found out how to make threads pause  Just do Thread.sleep(1000) to wait 1 sec. Have to put in try/catch block bc it might throw InterruptedException.
 
