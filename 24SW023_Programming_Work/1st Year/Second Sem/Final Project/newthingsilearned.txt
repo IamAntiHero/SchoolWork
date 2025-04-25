@@ -1,0 +1,11 @@
+I am making this file to summarize the extra things i learned for anyone reading this
+
+Volatile Keyword
+this keyword is weird but important, when u have multiple threads, they might not see updated values without it. basically tells Java "always get fresh value from memory, don't use cached copy"
+finally fixed that annoying bug where my thread wouldn't stop!
+
+also found out how to make threads pause  Just do Thread.sleep(1000) to wait 1 sec. Have to put in try/catch block bc it might throw InterruptedException.
+
+(Daemon Threads) this explains why my program wouldn't close Regular threads keep app running until they finish but daemon threads auto-close when main program ends.
+just had to add:
+thread.setDaemon(true); now my background tasks don't keep program running .figured it out after 3 hrs debugging :/
