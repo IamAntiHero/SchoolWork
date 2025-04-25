@@ -24,7 +24,7 @@ public class VirtualPetSimulator {
             
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();  
             
             switch (choice) {
                 case 1:
@@ -126,7 +126,7 @@ public class VirtualPetSimulator {
         
         System.out.print("Select a pet: ");
         int petIndex = scanner.nextInt() - 1;
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();  
         
         if (petIndex < 0 || petIndex >= environment.getPets().size()) {
             System.out.println("Invalid pet selection!");
@@ -143,7 +143,7 @@ public class VirtualPetSimulator {
         
         System.out.print("Select food: ");
         int foodIndex = scanner.nextInt() - 1;
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();  
         
         if (foodIndex < 0 || foodIndex >= environment.getFoodStore().size()) {
             System.out.println("Invalid food selection!");
@@ -171,7 +171,7 @@ public class VirtualPetSimulator {
         
         System.out.print("Select a pet: ");
         int petIndex = scanner.nextInt() - 1;
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         
         if (petIndex < 0 || petIndex >= environment.getPets().size()) {
             System.out.println("Invalid pet selection!");
@@ -186,7 +186,7 @@ public class VirtualPetSimulator {
             System.out.println("2. Fetch");
             System.out.print("Choose activity: ");
             int activity = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
             
             if (activity == 1) {
                 selectedPet.play();
@@ -200,7 +200,7 @@ public class VirtualPetSimulator {
             System.out.println("2. Chase string");
             System.out.print("Choose activity: ");
             int activity = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
             
             if (activity == 1) {
                 selectedPet.play();
@@ -214,7 +214,7 @@ public class VirtualPetSimulator {
             System.out.println("2. Fly");
             System.out.print("Choose activity: ");
             int activity = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
             
             if (activity == 1) {
                 selectedPet.play();
@@ -244,7 +244,7 @@ public class VirtualPetSimulator {
         
         System.out.print("Select a pet: ");
         int petIndex = scanner.nextInt() - 1;
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();  
         
         if (petIndex < 0 || petIndex >= environment.getPets().size()) {
             System.out.println("Invalid pet selection!");
@@ -264,7 +264,7 @@ public class VirtualPetSimulator {
         
         System.out.print("Select food to buy: ");
         int foodChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();  
         
         FoodItem newFood = null;
         
