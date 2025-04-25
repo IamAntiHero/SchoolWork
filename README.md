@@ -1,9 +1,9 @@
 # 📚 SCHOOLWORK Repository
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-April%2025%2C%202025-blue)
-![Course](https://img.shields.io/badge/Course-24SW023%20Programming-brightgreen)
+![Course](https://img.shields.io/badge/Course-SoftwareEngineering%20Programming-brightgreen)
 
-Welcome to my SchoolWork repository! This is a collection of my programming assignments and projects for course 24SW023.
+Welcome to my SchoolWork repository! This is a collection of my programming assignments and projects for course Software Engineering.
 
 ## 📋 Repository Structure
 
